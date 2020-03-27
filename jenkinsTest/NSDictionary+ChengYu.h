@@ -48,6 +48,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 #pragma mark - json
 - (NSString *)JSONString;
+
+- (void)test;
 @end
 
 NS_ASSUME_NONNULL_END
