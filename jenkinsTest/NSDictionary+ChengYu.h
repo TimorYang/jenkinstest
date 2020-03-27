@@ -50,6 +50,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (NSString *)JSONString;
 
 - (void)test;
+- (void)hahah;
 @end
 
 NS_ASSUME_NONNULL_END
