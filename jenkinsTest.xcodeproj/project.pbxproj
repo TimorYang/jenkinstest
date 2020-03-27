@@ -16,6 +16,8 @@
 		0092781D242D9FEE00815DC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0092781C242D9FEE00815DC9 /* main.m */; };
 		00927827242D9FEE00815DC9 /* jenkinsTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00927826242D9FEE00815DC9 /* jenkinsTestTests.m */; };
 		00927832242D9FEE00815DC9 /* jenkinsTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00927831242D9FEE00815DC9 /* jenkinsTestUITests.m */; };
+		0092786E242DA58E00815DC9 /* NSDictionary+ChengYu.m in Sources */ = {isa = PBXBuildFile; fileRef = 0092786C242DA58E00815DC9 /* NSDictionary+ChengYu.m */; };
+		00927871242DA5C000815DC9 /* TYWeakObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 0092786F242DA5C000815DC9 /* TYWeakObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,10 @@
 		0092782D242D9FEE00815DC9 /* jenkinsTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jenkinsTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00927831242D9FEE00815DC9 /* jenkinsTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jenkinsTestUITests.m; sourceTree = "<group>"; };
 		00927833242D9FEE00815DC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0092786B242DA58E00815DC9 /* NSDictionary+ChengYu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ChengYu.h"; sourceTree = "<group>"; };
+		0092786C242DA58E00815DC9 /* NSDictionary+ChengYu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ChengYu.m"; sourceTree = "<group>"; };
+		0092786F242DA5C000815DC9 /* TYWeakObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYWeakObject.m; sourceTree = "<group>"; };
+		00927870242DA5C000815DC9 /* TYWeakObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYWeakObject.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +110,10 @@
 		00927809242D9FE800815DC9 /* jenkinsTest */ = {
 			isa = PBXGroup;
 			children = (
+				00927870242DA5C000815DC9 /* TYWeakObject.h */,
+				0092786F242DA5C000815DC9 /* TYWeakObject.m */,
+				0092786B242DA58E00815DC9 /* NSDictionary+ChengYu.h */,
+				0092786C242DA58E00815DC9 /* NSDictionary+ChengYu.m */,
 				0092780A242D9FE800815DC9 /* AppDelegate.h */,
 				0092780B242D9FE800815DC9 /* AppDelegate.m */,
 				0092780D242D9FE800815DC9 /* SceneDelegate.h */,
@@ -267,6 +277,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0092786E242DA58E00815DC9 /* NSDictionary+ChengYu.m in Sources */,
+				00927871242DA5C000815DC9 /* TYWeakObject.m in Sources */,
 				00927812242D9FE800815DC9 /* ViewController.m in Sources */,
 				0092780C242D9FE800815DC9 /* AppDelegate.m in Sources */,
 				0092781D242D9FEE00815DC9 /* main.m in Sources */,
